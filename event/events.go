@@ -140,6 +140,7 @@ func keyQ(c *view.UiApp) {
 
 func keyCtrlD(c *view.UiApp) {
 	if page == main {
+		page = delmodal
 		index := c.UserList.GetCurrentItem()
 		user := controller.UserController.GetUser(index)
 		c.InitDmodal(fmt.Sprintf("do you want delete %s", user.Name),func(s string) {
@@ -149,7 +150,6 @@ func keyCtrlD(c *view.UiApp) {
 			keyEsc(c)
 		})
 		c.Pages.SwitchToPage("delmodal")
-		page = delmodal
 	}
 	return
 }
