@@ -30,7 +30,7 @@ func (a *UiApp)InitApp()  {
 	a.Pages=tview.NewPages()
 	a.Pages.AddPage("delmodal",a.DelModal,true,false)
 	a.Pages.AddPage("modal",a.AddModal,true,false)
-	a.Pages.AddPage("add",a.AddUserForm,true,false)
+	a.Pages.AddPage("add",a.modal(a.AddUserForm,60,15),true,false)
 	a.Pages.AddPage("main",a.ViewFlexBox,true,true)
 }
 
@@ -125,4 +125,11 @@ func (a *UiApp)InitDmodal(message string ,doneFunc func(s string))  {
 		SetDoneFunc(func(buttonIndex int, buttonLabel string) {
 			doneFunc(buttonLabel)
 		})
+}
+
+func (a *UiApp)modal(p tview.Primitive,width,height int) tview.Primitive {
+	return tview.NewGrid().
+		SetColumns(0,width,0).
+		SetRows(0,height,0).
+		AddItem(p,1,1,1,1,0,0,true)
 }
