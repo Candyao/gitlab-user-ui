@@ -9,4 +9,4 @@ gitlab:
   emaildomain: example.com
  
 ![image](https://user-images.githubusercontent.com/95895072/146724195-b51f6766-f005-4ab1-8095-fe938f5164a3.png)
-![image](https://user-images.githubusercontent.com/95895072/146724227-227a6edc-bd32-4e53-ba9a-391a57d178b0.png)
+![image](https://user-images.githubusercontent.com/95895072/146729431-bd864671-fe12-4799-a833-31b5f6534e68.png)
