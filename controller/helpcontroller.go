@@ -16,5 +16,6 @@ func (H *helpController)PopulateInfo(uiApp *view.UiApp)  {
 		`[white]CTRL+Q [yellow]QUIT`,
 		`[white]CTRL+A [yellow]ADDUSER`,
 		`[white]CTRL+N [yellow]USERNAME`,
-		`[white]CTRL+F [yellow]SEARCH`))
+		`[white]CTRL+F [yellow]SEARCH`,
+	        `[white]CTRL+D [yellow]DELETE`))
 }
