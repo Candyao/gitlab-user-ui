@@ -7,7 +7,6 @@ gitlab:
   url: https://gitlab.example.com
   token: <token>
   emaildomain: example.com
-  
-![image](https://user-images.githubusercontent.com/95895072/146724126-4e478890-2839-4f22-96fd-5508a0ea0e32.png)
+ 
 ![image](https://user-images.githubusercontent.com/95895072/146724195-b51f6766-f005-4ab1-8095-fe938f5164a3.png)
 ![image](https://user-images.githubusercontent.com/95895072/146724227-227a6edc-bd32-4e53-ba9a-391a57d178b0.png)
