@@ -1,0 +1,4 @@
+gitlab:
+  url: https://gitlab.example.com
+  token: <token>
+  emaildomain: example.com
