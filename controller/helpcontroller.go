@@ -10,7 +10,7 @@ type helpController struct {}
 var HelpController =&helpController{}
 
 func (H *helpController)PopulateInfo(uiApp *view.UiApp)  {
-	uiApp.Mui.HelpText.SetText(fmt.Sprintf("%v\t%v\t%v\t%v\t%v\t%v",
+	uiApp.Mui.HelpText.SetText(fmt.Sprintf("%v\t%v\t%v\t%v\t%v\t%v\t%v",
 		`CTRL+P [yellow]PREVIEW`,
 		`[white]ESC [yellow]CANCEL`,
 		`[white]CTRL+Q [yellow]QUIT`,
